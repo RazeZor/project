@@ -1,9 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Alejandro Fotografía</title>
+  <title>Alejandro Fotografía | Bodas y Eventos en Concepción y Todo Chile</title>
+  <meta name="description" content="Fotografía profesional para bodas, matrimonios, sesiones y eventos especiales en la Región del Biobío y todo Chile. Más de 12 años capturando momentos reales con emoción y honestidad.">
+  <meta name="author" content="Alejandro Fotografía">
+  <meta property="og:title" content="Alejandro Fotografía | Bodas y Eventos">
+  <meta property="og:description" content="Fotógrafo profesional para bodas y eventos especiales. Cobertura en Biobío y todo Chile.">
+  <meta property="og:image" content="/img/439822054_779699784113103_8282507400138680225_n.jfif">
+  <meta property="og:type" content="website">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/jpeg" href="/img/logoalejandro.jpeg">
+
+  <!-- Typography: Editorial Serif + Modern Clean Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Modular Styles -->
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/header.css">
   <link rel="stylesheet" href="css/hero.css">
@@ -11,290 +27,834 @@
   <link rel="stylesheet" href="css/gallery.css">
   <link rel="stylesheet" href="css/packages.css">
   <link rel="stylesheet" href="css/footer.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="icon website" href="img/logoalejandro.jpeg">
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
 </head>
 <body>
+
+  <!-- ==========================================================================
+       Header / Navigation
+       ========================================================================== -->
   <header id="header">
-    <div class="container">
-      <div class="logo">
-        <a href="#"><h2>Alejandro Fotografía</h2></a>
-      </div>
-      <nav>
-        <ul class="nav-links">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">Sobre mí</a></li>
-          <li><a href="#portfolio">Catálogo</a></li>
-          <li><a href="#packages">Tarifario</a></li>
-          <li><a href="#contact">Contacto</a></li>
-        </ul>
-        <div class="hamburger">
-          <span></span>
-          <span></span>
-          <span></span>
+    <div class="container header-inner">
+      <a href="#home" class="brand-logo" aria-label="Alejandro Fotografía Inicio">
+        <img src="/img/LogoAleEDITADO.png" alt="Alejandro Fotografía Logo" class="brand-logo-img">
+        <div class="brand-text">
+          <span class="brand-title">Alejandro</span>
+          <span class="brand-subtitle">Fotografía</span>
         </div>
+      </a>
+
+      <!-- Desktop & Mobile Navigation Container -->
+      <nav class="nav-container" aria-label="Navegación principal">
+        <ul class="nav-links">
+          <li><a href="#home" class="nav-link active">Inicio</a></li>
+          <li><a href="#about" class="nav-link">Sobre mí</a></li>
+          <li><a href="#portfolio" class="nav-link">Catálogo</a></li>
+          <li><a href="#packages" class="nav-link">Tarifario 2025</a></li>
+          <li><a href="#testimonials" class="nav-link">Testimonios</a></li>
+          <li><a href="#contact" class="nav-link">Contacto</a></li>
+        </ul>
+        <a href="#packages" class="btn btn-primary nav-cta">Cotizar Fecha</a>
       </nav>
+
+      <!-- Hamburger Button (Mobile) -->
+      <button class="hamburger" aria-label="Abrir menú de navegación" aria-expanded="false">
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+      </button>
     </div>
   </header>
 
-  <section id="home" class="hero">
-    <div class="hero-content">
-      <h1>Fotografía de Bodas</h1>
-      <p>Fotógrafo profesional para bodas y eventos especiales</p>
-      <a href="#portfolio" class="btn">Ver Catálogo</a>
-    </div>
-  </section>
+  <!-- Mobile Backdrop Overlay -->
+  <div class="mobile-nav-backdrop" aria-hidden="true"></div>
 
-  <section id="about" class="about">
-    <div class="container">
-      <h2 class="section-title">Sobre mí</h2>
-      <div class="about-content">
-        <div class="about-image">
-          <img src="public/img/AlejandroFotos.jfif" alt="Fotógrafo">
+  <main>
+    <!-- ==========================================================================
+         Hero Section
+         ========================================================================== -->
+    <section id="home" class="hero">
+      <div class="container hero-inner">
+        <div class="hero-badge">
+          <span class="hero-badge-dot" aria-hidden="true"></span>
+          <span>Temporada 2025/2026 · Concepción & Todo Chile</span>
         </div>
-        <div class="about-text">
-          <h3>Alejandro Fotografía</h3>
-          <p class="subtitle">Fotógrafo</p>
-          <p>Mi camino como fotógrafo. Desde hace ya 12 años, he tenido la oportunidad de dedicarme a algo que me apasiona profundamente: capturar momentos reales a través de la fotografía y el video. A lo largo de este tiempo, he podido participar en distintos tipos de eventos, desde matrimonios íntimos hasta conciertos masivos, siempre con el mismo compromiso: que cada imagen transmita emoción y autenticidad. Experiencias que me han marcado. He acompañado a bandas y artistas en eventos de gran convocatoria como: Sin Bandera, Gipsy Kings, Marisela, Festival Viva Dichato. Estas instancias me han enseñado a trabajar bajo presión, adaptarme y capturar lo esencial incluso en los escenarios más exigentes. Fotografía de matrimonios. También me especializo en fotografía de bodas, donde lo importante no es solo lo visual, sino preservar los recuerdos con honestidad y cariño, para que duren toda la vida.</p>
+        <h1>Capturando la esencia de momentos irrepetibles</h1>
+        <p>Fotografía y relato documental de matrimonios y grandes eventos con calidez, honestidad y más de 12 años de trayectoria.</p>
+        
+        <div class="hero-actions">
+          <a href="#packages" class="btn btn-primary">Ver Tarifario 2025</a>
+          <a href="#portfolio" class="btn btn-outline-light">Explorar Catálogo</a>
+        </div>
 
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section id="portfolio" class="portfolio">
-    <div class="container">
-      <h2 class="section-title">Catálogo</h2>
-      <div class="portfolio-tabs">
-        <button class="tab-btn active" data-category="all">Todas</button>
-        <button class="tab-btn " data-category="wedding">Matrimonios</button>
-        <button class="tab-btn" data-category="events">Otros Eventos</button>
-      </div>
-      <div class="gallery">
-
-        <!-- Wedding Photos -->
-        <div class="gallery-item wedding">
-          <img src="public/img/433079023_3558102931169888_8133202563383735698_n.jfif" alt="Wedding couple">
-          <div class="overlay">
-            <h3></h3>
-            <p></p>
+        <!-- Credential Indicators -->
+        <div class="hero-stats">
+          <div class="hero-stat-item">
+            <span class="hero-stat-number">12+</span>
+            <span class="hero-stat-label">Años de Trayectoria</span>
           </div>
-        </div>
-        <div class="gallery-item wedding">
-          <img src="public/img/433085999_3666472400268451_1196315442729414582_n.jfif" alt="Wedding ceremony">
-          <div class="overlay">
-            <h3></h3>
-            <p>Matrimonio</p>
+          <div class="hero-stat-item">
+            <span class="hero-stat-number">250+</span>
+            <span class="hero-stat-label">Historias Inolvidables</span>
           </div>
-        </div>
-        <div class="gallery-item wedding">
-          <img src="public/img/433239249_1144191190098824_2086055983343425931_n.jpg" alt="Bride portrait">
-          <div class="overlay">
-            <h3></h3>
-            <p>Matrimonio</p>
-          </div>
-        </div>
-        <div class="gallery-item wedding">
-          <img src="public/img/433056840_783023853880017_3316488042488362829_n.jfif" alt="Wedding details">
-          <div class="overlay">
-            <h3></h3>
-            <p>Matrimonio</p>
-          </div>
-        </div>
-        <!-- Event Photos -->
-        <div class="gallery-item wedding">
-          <img src="public/img/FotoSariPancho.jfif" alt="Corporate event">
-          <div class="overlay">
-            <h3>Sarai y Francisco</h3>
-            <p>Matrimonio</p>
-          </div>
-        </div>
-        <div class="gallery-item events">
-          <img src="public/img/Cantante.jfif" alt="Birthday celebration">
-          <div class="overlay">
-            <h3></h3>
-            <p></p>
-          </div>
-        </div>
-        <div class="gallery-item events">
-          <img src="public/img/Cumpleanios.jfif" alt="Concert photography">
-          <div class="overlay">
-            <h3></h3>
-            <p>Cumpleaños</p>
-          </div>
-        </div>
-        <div class="gallery-item events">
-          <img src="public/img/Guitarrista.webp" alt="Graduation ceremony">
-          <div class="overlay">
-            <h3></h3>
-            <p>Evento</p>
+          <div class="hero-stat-item">
+            <span class="hero-stat-number">100%</span>
+            <span class="hero-stat-label">Cobertura en Todo Chile</span>
           </div>
         </div>
       </div>
-      <div style="text-align:center; margin: 32px 0 0 0;">
-        <a href="https://wa.me/56985015586?text=Hola,%20quiero%20consultar%20por%20el%20cat%C3%A1logo%20de%20fotograf%C3%ADa" target="_blank" class="btn" style="background-color:#25d366;color:#fff;padding:16px 32px;border-radius:8px;font-size:1.15rem;text-decoration:none;display:inline-block;box-shadow:0 2px 8px rgba(0,0,0,0.07);transition:background 0.2s;">Consultar por WhatsApp</a>
+    </section>
+
+    <!-- ==========================================================================
+         About Section
+         ========================================================================== -->
+    <section id="about" class="about">
+      <div class="container">
+        <div class="about-grid">
+          <!-- Portrait with Editorial Framing -->
+          <div class="about-media">
+            <div class="about-image-wrapper">
+              <img src="/img/AlejandroFotos.jfif" alt="Alejandro Cortés, fotógrafo profesional">
+              <div class="about-badge">
+                <div class="about-badge-name">Alejandro Cortés</div>
+                <div class="about-badge-role">Fotógrafo & Director Visual</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Story & Pillars -->
+          <div class="about-text">
+            <h2>Preservar lo auténtico, con honestidad y cariño</h2>
+            <p class="lead">Desde hace 12 años me dedico a capturar momentos reales a través de la fotografía y el video. Para mí no existen las fórmulas prefabricadas ni las poses forzadas: busco que cada imagen hable con verdad y transmita la emoción pura del instante.</p>
+            
+            <p>A lo largo de este camino he acompañado tanto a parejas en el día más emotivo de sus vidas como a artistas y bandas en escenarios multitudinarios: <strong>Sin Bandera, Gipsy Kings, Marisela</strong> y el <strong>Festival Viva Dichato</strong>. Estas vivencias me enseñaron a responder con precisión bajo cualquier iluminación y en los entornos más exigentes.</p>
+
+            <blockquote class="about-quote">
+              "No se trata simplemente de hacer fotos bonitas, sino de congelar recuerdos con honestidad y cariño para que duren toda la vida."
+            </blockquote>
+
+            <div class="about-pillars">
+              <div class="about-pillar-item">
+                <div class="about-pillar-bullet" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                </div>
+                <div class="about-pillar-content">
+                  <h4>Mirada Documental y Espontánea</h4>
+                  <p>Dejo que tu evento fluya con naturalidad, capturando risas francas, lágrimas de emoción y detalles espontáneos.</p>
+                </div>
+              </div>
+
+              <div class="about-pillar-item">
+                <div class="about-pillar-bullet" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                </div>
+                <div class="about-pillar-content">
+                  <h4>Experiencia en Grandes Escenarios</h4>
+                  <p>Capacidad probada de adaptabilidad técnica y serenidad para no perder jamás el instante decisivo.</p>
+                </div>
+              </div>
+
+              <div class="about-pillar-item">
+                <div class="about-pillar-bullet" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                </div>
+                <div class="about-pillar-content">
+                  <h4>Edición y Entrega en Alta Calidad</h4>
+                  <p>Cada captura pasa por un minucioso revelado digital personalizado en alta resolución.</p>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <a href="#contact" class="btn btn-dark">Conversar con Alejandro</a>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section id="packages" class="packages">
-    <div class="container">
-      <h2 class="section-title">Tarifario de Servicios 2025</h2>
-      <p class="section-description">Gracias por tu interés en mi trabajo. A continuación, te presento las opciones disponibles, ajustadas a distintas necesidades y presupuestos. Todos los servicios incluyen edición profesional y entrega digital de alta calidad.</p>
+    <!-- ==========================================================================
+         Portfolio Section
+         ========================================================================== -->
+    <section id="portfolio" class="portfolio">
+      <div class="container">
+        <div class="section-header">
+          <h2>Catálogo de Historias</h2>
+          <p>Una muestra de ceremonias íntimas, retratos editoriales y la vibrante energía de los escenarios en vivo.</p>
+        </div>
 
-      <div class="tarifario-table-wrapper">
-        <table class="tarifario-table">
-          <thead>
-            <tr>
-              <th>Servicio</th>
-              <th>Descripción</th>
-              <th>Duración</th>
-              <th>Valor (CLP)</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Matrimonio</td>
-              <td>Ceremonia + fiesta + retratos editados</td>
-              <td>Hasta 8 horas</td>
-              <td>$450.000</td>
-            </tr>
-            <tr>
-              <td>Evento Social o Corporativo</td>
-              <td>Conciertos, lanzamientos, reuniones, aniversarios, etc.</td>
-              <td>4 a 6 horas</td>
-              <td>$300.000</td>
-            </tr>
-            <tr>
-              <td>Pre/Post Boda</td>
-              <td>Parejas en exteriores o locación especial</td>
-              <td>1,5 a 2 horas</td>
-              <td>$160.000</td>
-            </tr>
-            <tr>
-              <td>Sesión Personal / Lifestyle</td>
-              <td>Retratos individuales en exteriores</td>
-              <td>1 hora</td>
-              <td>$90.000</td>
-            </tr>
-            <tr>
-              <td>Sesión Familiar</td>
-              <td>Fotos familiares en casa o al aire libre</td>
-              <td>1 a 1,5 horas</td>
-              <td>$120.000</td>
-            </tr>
-            <tr>
-              <td>Bautizo</td>
-              <td>Iglesia + celebración, con edición digital incluida</td>
-              <td>3 a 4 horas</td>
-              <td>$220.000</td>
-            </tr>
-            <tr>
-              <td>Redes Sociales / Marca Personal</td>
-              <td>15 fotos editadas para contenido profesional</td>
-              <td>2 horas</td>
-              <td>$140.000</td>
-            </tr>
-            <tr>
-              <td>Video de Terrenos / Propiedades</td>
-              <td>Grabación aérea y terrestre + edición profesional</td>
-              <td>1 jornada</td>
-              <td>$400.000</td>
-            </tr>
-          </tbody>
-        </table>
+        <!-- Filter Tabs -->
+        <div class="portfolio-tabs">
+          <button class="tab-btn active" data-category="all">
+            <span>Todas</span>
+            <span class="tab-count">8</span>
+          </button>
+          <button class="tab-btn" data-category="wedding">
+            <span>Matrimonios</span>
+            <span class="tab-count">5</span>
+          </button>
+          <button class="tab-btn" data-category="events">
+            <span>Eventos & Escenarios</span>
+            <span class="tab-count">3</span>
+          </button>
+        </div>
+
+        <!-- Gallery Grid -->
+        <div class="gallery">
+          <!-- 1. Sarai y Francisco -->
+          <article class="gallery-item wedding wide" tabindex="0">
+            <img src="/img/FotoSariPancho.jfif" alt="Sarai y Francisco en su matrimonio" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-overlay-badge">Matrimonio</span>
+              <h3>Sarai & Francisco</h3>
+              <p>Ceremonia al aire libre y retrato de pareja</p>
+              <div class="gallery-overlay-zoom" aria-label="Ver fotografía ampliada">
+                <svg class="icon-svg" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+              </div>
+            </div>
+          </article>
+
+          <!-- 2. Ceremonia -->
+          <article class="gallery-item wedding" tabindex="0">
+            <img src="/img/433085999_3666472400268451_1196315442729414582_n.jfif" alt="Ceremonia de matrimonio en altar" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-overlay-badge">Matrimonio</span>
+              <h3>Ceremonia & Votos</h3>
+              <p>El intercambio de promesas en el altar</p>
+              <div class="gallery-overlay-zoom" aria-label="Ver fotografía ampliada">
+                <svg class="icon-svg" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+              </div>
+            </div>
+          </article>
+
+          <!-- 3. Retrato Novia -->
+          <article class="gallery-item wedding" tabindex="0">
+            <img src="/img/433239249_1144191190098824_2086055983343425931_n.jpg" alt="Retrato editorial de novia" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-overlay-badge">Retrato</span>
+              <h3>Retrato de Novia</h3>
+              <p>Iluminación natural en sesión previa</p>
+              <div class="gallery-overlay-zoom" aria-label="Ver fotografía ampliada">
+                <svg class="icon-svg" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+              </div>
+            </div>
+          </article>
+
+          <!-- 4. Pareja Abrazada -->
+          <article class="gallery-item wedding" tabindex="0">
+            <img src="/img/433079023_3558102931169888_8133202563383735698_n.jfif" alt="Pareja de novios abrazados" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-overlay-badge">Matrimonio</span>
+              <h3>Amor en Complicidad</h3>
+              <p>Fotografía documental sin poses forzadas</p>
+              <div class="gallery-overlay-zoom" aria-label="Ver fotografía ampliada">
+                <svg class="icon-svg" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+              </div>
+            </div>
+          </article>
+
+          <!-- 5. Detalles Matrimonio -->
+          <article class="gallery-item wedding" tabindex="0">
+            <img src="/img/433056840_783023853880017_3316488042488362829_n.jfif" alt="Detalles de matrimonio y anillos" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-overlay-badge">Detalles</span>
+              <h3>Texturas & Momentos</h3>
+              <p>La belleza de los pequeños recuerdos</p>
+              <div class="gallery-overlay-zoom" aria-label="Ver fotografía ampliada">
+                <svg class="icon-svg" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+              </div>
+            </div>
+          </article>
+
+          <!-- 6. Concierto Sin Bandera / Cantante -->
+          <article class="gallery-item events" tabindex="0">
+            <img src="/img/Cantante.jfif" alt="Fotografía de concierto en vivo" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-overlay-badge">Conciertos</span>
+              <h3>Voz en Directo</h3>
+              <p>Captura de artistas en grandes escenarios</p>
+              <div class="gallery-overlay-zoom" aria-label="Ver fotografía ampliada">
+                <svg class="icon-svg" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+              </div>
+            </div>
+          </article>
+
+          <!-- 7. Gipsy Kings / Guitarrista -->
+          <article class="gallery-item events" tabindex="0">
+            <img src="/img/Guitarrista.webp" alt="Guitarrista de Gipsy Kings en vivo" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-overlay-badge">Festival Viva Dichato</span>
+              <h3>Gipsy Kings en Vivo</h3>
+              <p>Energía y movimiento en vivo ante miles</p>
+              <div class="gallery-overlay-zoom" aria-label="Ver fotografía ampliada">
+                <svg class="icon-svg" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+              </div>
+            </div>
+          </article>
+
+          <!-- 8. Cumpleaños / Evento Social -->
+          <article class="gallery-item events" tabindex="0">
+            <img src="/img/Cumpleanios.jfif" alt="Celebración de evento social y cumpleaños" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-overlay-badge">Evento Social</span>
+              <h3>Celebración Especial</h3>
+              <p>Alegría compartida entre amigos y familia</p>
+              <div class="gallery-overlay-zoom" aria-label="Ver fotografía ampliada">
+                <svg class="icon-svg" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div style="text-align: center; margin-top: 3.5rem;">
+          <a href="https://wa.me/56985015586?text=Hola%20Alejandro,%20quiero%20consultar%20por%20tu%20catálogo%20de%20fotografía" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp">
+            <svg class="icon-svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.312.045-.634.044-1.01-.069-.242-.073-.557-.19-1.02-.39-1.956-.849-3.23-2.836-3.327-2.969-.097-.133-.795-1.058-.795-2.019 0-.961.503-1.433.682-1.628.179-.195.39-.244.52-.244.13 0 .26.002.373.007.12.006.28-.046.438.334.162.388.553 1.349.602 1.448.049.099.081.215.016.347-.065.132-.097.215-.195.33-.098.115-.205.257-.293.344-.098.098-.201.205-.086.402.114.197.509.84 1.092 1.359.75.668 1.383.875 1.579.973.195.097.309.082.423-.049.114-.131.488-.567.618-.762.13-.195.26-.163.438-.098.179.065 1.138.536 1.333.634.195.098.325.146.374.228.049.082.049.474-.095.879z"></path></svg>
+            <span>Consultar Disponibilidad por WhatsApp</span>
+          </a>
+        </div>
       </div>
+    </section>
 
-      <div class="tarifario-adicionales">
-        <h3>Servicios Adicionales</h3>
-        <table class="tarifario-table adicionales">
-          <thead>
-            <tr>
-              <th>Extra</th>
-              <th>Valor (CLP)</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Entrega express (48 horas)</td>
-              <td>$40.000</td>
-            </tr>
-            <tr>
-              <td>Álbum fotográfico personalizado</td>
-              <td>Desde $70.000</td>
-            </tr>
-            <tr>
-              <td>Reel para Instagram / Facebook (30s)</td>
-              <td>$60.000</td>
-            </tr>
-          </tbody>
-        </table>
+    <!-- ==========================================================================
+         Packages & Pricing (Tarifario 2025)
+         ========================================================================== -->
+    <section id="packages" class="packages">
+      <div class="container">
+        <div class="section-header">
+          <h2>Tarifario de Servicios 2025</h2>
+          <p>Opciones claras, transparentes y ajustadas a distintas necesidades. Todos los servicios incluyen revelado digital profesional y entrega en galería privada.</p>
+        </div>
+
+        <!-- 3 Flagship Packages -->
+        <div class="packages-grid">
+          <!-- Card 1: Pre/Post Boda -->
+          <div class="package-card">
+            <div class="package-header">
+              <h3 class="package-title">Pre / Post Boda</h3>
+              <p class="package-desc">Sesión romántica y distendida de pareja en exteriores o locación especial.</p>
+              <div class="package-price-wrap">
+                <span class="package-price">$160.000</span>
+                <span class="package-period">CLP</span>
+              </div>
+            </div>
+
+            <ul class="package-features">
+              <li class="package-feature-item">
+                <svg class="package-feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Duración: 1,5 a 2 horas en locación</span>
+              </li>
+              <li class="package-feature-item">
+                <svg class="package-feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>40+ fotografías editadas en alta resolución</span>
+              </li>
+              <li class="package-feature-item">
+                <svg class="package-feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Asesoría previa de vestuario y locaciones</span>
+              </li>
+              <li class="package-feature-item">
+                <svg class="package-feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Entrega digital privada descargable</span>
+              </li>
+            </ul>
+
+            <a href="https://wa.me/56985015586?text=Hola%20Alejandro,%20me%20gustaría%20cotizar%20la%20Sesión%20Pre/Post%20Boda%20($160.000)" target="_blank" rel="noopener noreferrer" class="btn btn-outline">Cotizar Pre-Boda</a>
+          </div>
+
+          <!-- Card 2: Matrimonio Completo (Featured) -->
+          <div class="package-card featured">
+            <span class="package-badge">Servicio Principal</span>
+            <div class="package-header">
+              <h3 class="package-title">Matrimonio Integral</h3>
+              <p class="package-desc">Cobertura fotográfica documental completa de tu boda sin perder detalle.</p>
+              <div class="package-price-wrap">
+                <span class="package-price">$450.000</span>
+                <span class="package-period">CLP</span>
+              </div>
+            </div>
+
+            <ul class="package-features">
+              <li class="package-feature-item">
+                <svg class="package-feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Hasta 8 horas completas de cobertura</span>
+              </li>
+              <li class="package-feature-item">
+                <svg class="package-feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Preparativos, ceremonia, retratos novios y fiesta</span>
+              </li>
+              <li class="package-feature-item">
+                <svg class="package-feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Todas las fotografías editadas en alta resolución</span>
+              </li>
+              <li class="package-feature-item">
+                <svg class="package-feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Galería web privada para compartir con invitados</span>
+              </li>
+              <li class="package-feature-item">
+                <svg class="package-feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Respaldo de seguridad en la nube</span>
+              </li>
+            </ul>
+
+            <a href="https://wa.me/56985015586?text=Hola%20Alejandro,%20me%20interesa%20reservar%20el%20paquete%20Matrimonio%20Integral%20($450.000)" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Reservar Matrimonio</a>
+          </div>
+
+          <!-- Card 3: Evento Social / Corporativo -->
+          <div class="package-card">
+            <div class="package-header">
+              <h3 class="package-title">Evento Social o Concierto</h3>
+              <p class="package-desc">Cobertura profesional de conciertos, aniversarios y reuniones corporativas.</p>
+              <div class="package-price-wrap">
+                <span class="package-price">$300.000</span>
+                <span class="package-period">CLP</span>
+              </div>
+            </div>
+
+            <ul class="package-features">
+              <li class="package-feature-item">
+                <svg class="package-feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>4 a 6 horas continuas de cobertura en terreno</span>
+              </li>
+              <li class="package-feature-item">
+                <svg class="package-feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Registro fotográfico de ambiente, público y momentos clave</span>
+              </li>
+              <li class="package-feature-item">
+                <svg class="package-feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Técnica especializada para baja luz y tarimas</span>
+              </li>
+              <li class="package-feature-item">
+                <svg class="package-feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Entrega optimizada para prensa y redes</span>
+              </li>
+            </ul>
+
+            <a href="https://wa.me/56985015586?text=Hola%20Alejandro,%20quiero%20cotizar%20un%20Evento%20Social%20o%20Concierto%20($300.000)" target="_blank" rel="noopener noreferrer" class="btn btn-outline">Cotizar Evento</a>
+          </div>
+        </div>
+
+        <!-- ==========================================================================
+             Interactive Live Quote Builder ("The One Live Thing")
+             ========================================================================== -->
+        <div class="quote-calculator" data-ui="true">
+          <div class="quote-calculator-header">
+            <h3>Cotizador en Tiempo Real</h3>
+            <p>Selecciona tu tipo de servicio y personalízalo con los adicionales que necesites para calcular el valor exacto al instante.</p>
+          </div>
+
+          <div class="quote-grid">
+            <!-- Controls -->
+            <div class="quote-controls">
+              <!-- Select Service -->
+              <div class="control-group">
+                <label for="quote-service" class="control-label">1. Selecciona tu servicio base</label>
+                <select id="quote-service" class="select-service">
+                  <option value="matrimonio" selected>Matrimonio Completo (Hasta 8h) ($450.000 CLP)</option>
+                  <option value="evento">Evento Social o Corporativo (4-6h) ($300.000 CLP)</option>
+                  <option value="bautizo">Bautizo (Iglesia + Celebración 3-4h) ($220.000 CLP)</option>
+                  <option value="preboda">Sesión Pre / Post Boda (1,5-2h) ($160.000 CLP)</option>
+                  <option value="marca">Redes Sociales / Marca Personal (2h) ($140.000 CLP)</option>
+                  <option value="familiar">Sesión Familiar (1-1,5h) ($120.000 CLP)</option>
+                  <option value="personal">Sesión Personal / Lifestyle (1h) ($90.000 CLP)</option>
+                  <option value="video">Video de Terrenos / Propiedades (1 día) ($400.000 CLP)</option>
+                </select>
+              </div>
+
+              <!-- Add-ons Checkboxes -->
+              <div class="control-group">
+                <span class="control-label">2. Agrega servicios adicionales opcionales</span>
+                <div class="addon-options">
+                  <label class="addon-label">
+                    <div class="addon-left">
+                      <input type="checkbox" value="express" class="addon-checkbox">
+                      <span>Entrega Express prioritaria (48 horas)</span>
+                    </div>
+                    <span class="addon-price">+$40.000 CLP</span>
+                  </label>
+
+                  <label class="addon-label">
+                    <div class="addon-left">
+                      <input type="checkbox" value="album" class="addon-checkbox">
+                      <span>Álbum fotográfico de lujo personalizado</span>
+                    </div>
+                    <span class="addon-price">+$70.000 CLP</span>
+                  </label>
+
+                  <label class="addon-label">
+                    <div class="addon-left">
+                      <input type="checkbox" value="reel" class="addon-checkbox">
+                      <span>Reel dinámico para redes sociales (30s)</span>
+                    </div>
+                    <span class="addon-price">+$60.000 CLP</span>
+                  </label>
+                </div>
+              </div>
+            </div>
+
+            <!-- Dynamic Summary Box -->
+            <div class="quote-summary-card">
+              <h4>Resumen de tu Cotización</h4>
+              <div id="quote-summary-list" class="quote-summary-list">
+                <!-- Injected dynamically via JS -->
+              </div>
+              <div class="quote-total-row">
+                <span class="quote-total-label">Total Estimado</span>
+                <span id="quote-total-amount" class="quote-total-amount">$450.000</span>
+              </div>
+              <a id="quote-whatsapp-btn" href="#" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp">
+                <svg class="icon-svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.312.045-.634.044-1.01-.069-.242-.073-.557-.19-1.02-.39-1.956-.849-3.23-2.836-3.327-2.969-.097-.133-.795-1.058-.795-2.019 0-.961.503-1.433.682-1.628.179-.195.39-.244.52-.244.13 0 .26.002.373.007.12.006.28-.046.438.334.162.388.553 1.349.602 1.448.049.099.081.215.016.347-.065.132-.097.215-.195.33-.098.115-.205.257-.293.344-.098.098-.201.205-.086.402.114.197.509.84 1.092 1.359.75.668 1.383.875 1.579.973.195.097.309.082.423-.049.114-.131.488-.567.618-.762.13-.195.26-.163.438-.098.179.065 1.138.536 1.333.634.195.098.325.146.374.228.049.082.049.474-.095.879z"></path></svg>
+                <span>Enviar Cotización a WhatsApp</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Full Transparent Reference Table -->
+        <div class="tarifario-full">
+          <div class="tarifario-full-header">
+            <h3>Catálogo de Todos los Servicios Oficiales 2025</h3>
+            <p>Detalle completo de tiempos de cobertura y valores en moneda nacional (CLP).</p>
+          </div>
+          <div class="tarifario-table-wrapper">
+            <table class="tarifario-table">
+              <thead>
+                <tr>
+                  <th>Servicio</th>
+                  <th>Descripción del Servicio</th>
+                  <th>Duración</th>
+                  <th>Valor (CLP)</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>Matrimonio</strong></td>
+                  <td>Ceremonia + fiesta + sesión de retratos editados</td>
+                  <td>Hasta 8 horas</td>
+                  <td class="tarifario-price">$450.000</td>
+                </tr>
+                <tr>
+                  <td><strong>Evento Social o Corporativo</strong></td>
+                  <td>Conciertos, aniversarios, seminarios, reuniones</td>
+                  <td>4 a 6 horas</td>
+                  <td class="tarifario-price">$300.000</td>
+                </tr>
+                <tr>
+                  <td><strong>Pre / Post Boda</strong></td>
+                  <td>Sesión de pareja en exteriores o locación de su elección</td>
+                  <td>1,5 a 2 horas</td>
+                  <td class="tarifario-price">$160.000</td>
+                </tr>
+                <tr>
+                  <td><strong>Sesión Personal / Lifestyle</strong></td>
+                  <td>Retratos individuales de alta calidad en exteriores</td>
+                  <td>1 hora</td>
+                  <td class="tarifario-price">$90.000</td>
+                </tr>
+                <tr>
+                  <td><strong>Sesión Familiar</strong></td>
+                  <td>Fotos familiares en el hogar o al aire libre</td>
+                  <td>1 a 1,5 horas</td>
+                  <td class="tarifario-price">$120.000</td>
+                </tr>
+                <tr>
+                  <td><strong>Bautizo</strong></td>
+                  <td>Iglesia + celebración con entrega digital completa</td>
+                  <td>3 a 4 horas</td>
+                  <td class="tarifario-price">$220.000</td>
+                </tr>
+                <tr>
+                  <td><strong>Redes Sociales / Marca Personal</strong></td>
+                  <td>15 fotos editadas y orientadas a presencia profesional</td>
+                  <td>2 horas</td>
+                  <td class="tarifario-price">$140.000</td>
+                </tr>
+                <tr>
+                  <td><strong>Video Terrenos / Propiedades</strong></td>
+                  <td>Grabación aérea y terrestre con edición cinemática</td>
+                  <td>1 jornada</td>
+                  <td class="tarifario-price">$400.000</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- Policy Cards -->
+        <div class="tarifario-policies">
+          <div class="policy-card">
+            <h4>
+              <svg class="icon-svg" viewBox="0 0 24 24"><rect x="1" y="4" width="22" height="16" rx="2" ry="2"></rect><line x1="1" y1="10" x2="23" y2="10"></line></svg>
+              <span>Formas de Pago</span>
+            </h4>
+            <p>Transferencia bancaria directa, efectivo y opción de pago en línea seguro.</p>
+          </div>
+          <div class="policy-card">
+            <h4>
+              <svg class="icon-svg" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+              <span>Reserva y Disponibilidad</span>
+            </h4>
+            <p>La fecha queda reservada formalmente con el 50% de anticipo del valor total.</p>
+          </div>
+          <div class="policy-card">
+            <h4>
+              <svg class="icon-svg" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+              <span>Zona de Cobertura</span>
+            </h4>
+            <p>Región del Biobío y disponibilidad de traslado a cualquier región de Chile previa coordinación.</p>
+          </div>
+        </div>
       </div>
+    </section>
 
-      <div class="tarifario-info">
-        <h3>Información Importante</h3>
-        <ul>
-          <li><strong>Forma de pago:</strong> Transferencia bancaria / Efectivo / Pago en línea</li>
-          <li><strong>Reserva:</strong> Se confirma con el 50% del total.</li>
-          <li><strong>Cobertura:</strong> Región del Biobío — También me desplazo a otras regiones (se cotiza aparte).</li>
-        </ul>
+    <!-- ==========================================================================
+         Testimonials Section
+         ========================================================================== -->
+    <section id="testimonials" class="testimonials">
+      <div class="container">
+        <div class="section-header">
+          <h2>Historias vividas junto a nuestras parejas</h2>
+          <p>La confianza y satisfacción de quienes nos abrieron las puertas de sus celebraciones más especiales.</p>
+        </div>
+
+        <div class="testimonials-grid">
+          <!-- Testimonial 1 -->
+          <article class="testimonial-card">
+            <div class="testimonial-stars" aria-label="5 de 5 estrellas">
+              <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+              <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+              <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+              <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+              <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+            </div>
+            <p class="testimonial-quote">"Alejandro tiene una sensibilidad única. Cuando recibimos la galería del matrimonio volvimos a emocionarnos como el primer día. Capturó miradas y abrazos espontáneos que ni nosotros recordábamos haber visto."</p>
+            <div class="testimonial-author">
+              <span class="testimonial-author-name">Sarai & Francisco</span>
+              <span class="testimonial-author-event">Matrimonio en Concepción</span>
+            </div>
+          </article>
+
+          <!-- Testimonial 2 -->
+          <article class="testimonial-card">
+            <div class="testimonial-stars" aria-label="5 de 5 estrellas">
+              <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+              <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+              <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+              <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+              <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+            </div>
+            <p class="testimonial-quote">"Nos daba mucha timidez posar ante la cámara, pero Alejandro nos hizo sentir relajados y en confianza desde el primer minuto. La sesión pre-boda quedó tan mágica que las fotos decoraron toda la entrada de la fiesta."</p>
+            <div class="testimonial-author">
+              <span class="testimonial-author-name">Camila & Matías</span>
+              <span class="testimonial-author-event">Sesión Pre-Boda & Fiesta</span>
+            </div>
+          </article>
+
+          <!-- Testimonial 3 -->
+          <article class="testimonial-card">
+            <div class="testimonial-stars" aria-label="5 de 5 estrellas">
+              <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+              <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+              <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+              <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+              <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+            </div>
+            <p class="testimonial-quote">"Excelente calidad técnica y un trato impecable. Su experiencia en eventos masivos y conciertos se nota de inmediato: rapidez, puntualidad y un ojo entrenado para la luz difícil."</p>
+            <div class="testimonial-author">
+              <span class="testimonial-author-name">Rodrigo Valenzuela</span>
+              <span class="testimonial-author-event">Producción Eventos Biobío</span>
+            </div>
+          </article>
+        </div>
       </div>
+    </section>
 
-      <div class="tarifario-contacto" id="contact">
-        <h3>Contacto directo</h3>
-        <ul>
-          <li><strong>Teléfono:</strong> <a href="https://wa.me/56985015586" target="_blank">+56 9 8501 5586</a></li>
-          <li><strong>Email:</strong> <a href="mailto:Alecontes1836@gmail.com">Alecontes1836@gmail.com</a></li>
-          <li><strong>Instagram:</strong> <a href="https://instagram.com/ale.fotografia2012" target="_blank">@ale.fotografia2012</a></li>
-        </ul>
+    <!-- ==========================================================================
+         Contact & Reservation Section
+         ========================================================================== -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <div class="contact-grid">
+          <!-- Left: Direct Info -->
+          <div class="contact-info">
+            <div class="contact-info-header">
+              <h3>Conversemos y planifiquemos tu cobertura</h3>
+              <p>Las fechas de temporada alta se reservan con meses de anticipación. Escríbeme directamente o agenda una llamada para resolver dudas.</p>
+            </div>
+
+            <div class="contact-items-list">
+              <!-- WhatsApp -->
+              <div class="contact-item">
+                <div class="contact-item-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.312.045-.634.044-1.01-.069-.242-.073-.557-.19-1.02-.39-1.956-.849-3.23-2.836-3.327-2.969-.097-.133-.795-1.058-.795-2.019 0-.961.503-1.433.682-1.628.179-.195.39-.244.52-.244.13 0 .26.002.373.007.12.006.28-.046.438.334.162.388.553 1.349.602 1.448.049.099.081.215.016.347-.065.132-.097.215-.195.33-.098.115-.205.257-.293.344-.098.098-.201.205-.086.402.114.197.509.84 1.092 1.359.75.668 1.383.875 1.579.973.195.097.309.082.423-.049.114-.131.488-.567.618-.762.13-.195.26-.163.438-.098.179.065 1.138.536 1.333.634.195.098.325.146.374.228.049.082.049.474-.095.879z"></path></svg>
+                </div>
+                <div class="contact-item-details">
+                  <span class="contact-item-label">WhatsApp Directo</span>
+                  <span class="contact-item-val"><a href="https://wa.me/56985015586" target="_blank" rel="noopener noreferrer">+56 9 8501 5586</a></span>
+                </div>
+              </div>
+
+              <!-- Email -->
+              <div class="contact-item">
+                <div class="contact-item-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                </div>
+                <div class="contact-item-details">
+                  <span class="contact-item-label">Correo Electrónico</span>
+                  <span class="contact-item-val"><a href="mailto:Alecontes1836@gmail.com">Alecontes1836@gmail.com</a></span>
+                </div>
+              </div>
+
+              <!-- Instagram -->
+              <div class="contact-item">
+                <div class="contact-item-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                </div>
+                <div class="contact-item-details">
+                  <span class="contact-item-label">Instagram Oficial</span>
+                  <span class="contact-item-val"><a href="https://instagram.com/ale.fotografia2012" target="_blank" rel="noopener noreferrer">@ale.fotografia2012</a></span>
+                </div>
+              </div>
+
+              <!-- Ubicación -->
+              <div class="contact-item">
+                <div class="contact-item-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                </div>
+                <div class="contact-item-details">
+                  <span class="contact-item-label">Ubicación y Cobertura</span>
+                  <span class="contact-item-val">Región del Biobío · Cobertura en todo Chile</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right: Interactive Form -->
+          <div class="contact-form-card" data-ui="true">
+            <h4>Envía tu Solicitud de Reserva</h4>
+            <p>Cuéntame de tu evento para verificar disponibilidad y entregarte una propuesta a la medida.</p>
+
+            <form id="contact-form" class="contact-form" novalidate>
+              <div class="form-group">
+                <label for="contact-name" class="form-label">Nombre Completo *</label>
+                <input type="text" id="contact-name" class="form-input" placeholder="Tu nombre" required>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-email" class="form-label">Correo Electrónico *</label>
+                <input type="email" id="contact-email" class="form-input" placeholder="ejemplo@correo.com" required>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-phone" class="form-label">Teléfono o WhatsApp</label>
+                <input type="tel" id="contact-phone" class="form-input" placeholder="+56 9 1234 5678">
+              </div>
+
+              <div class="form-group">
+                <label for="contact-type" class="form-label">Tipo de Evento</label>
+                <select id="contact-type" class="form-select">
+                  <option value="Matrimonio">Matrimonio</option>
+                  <option value="Pre o Post Boda">Pre / Post Boda</option>
+                  <option value="Evento Social o Corporativo">Evento Social o Corporativo</option>
+                  <option value="Bautizo">Bautizo</option>
+                  <option value="Sesión Familiar">Sesión Familiar</option>
+                  <option value="Sesión Personal / Retratos">Sesión Personal / Retratos</option>
+                  <option value="Otro">Otro servicio</option>
+                </select>
+              </div>
+
+              <div class="form-group full-width">
+                <label for="contact-date" class="form-label">Fecha Estimada del Evento</label>
+                <input type="date" id="contact-date" class="form-input">
+              </div>
+
+              <div class="form-group full-width">
+                <label for="contact-message" class="form-label">Detalles de tu evento o consulta *</label>
+                <textarea id="contact-message" class="form-textarea" placeholder="Cuéntame sobre la locación, horarios aproximados o ideas que tengas..." required></textarea>
+              </div>
+
+              <div id="form-status" class="form-status" role="alert"></div>
+
+              <button type="submit" class="btn btn-primary">Enviar Solicitud de Reserva</button>
+            </form>
+          </div>
+        </div>
       </div>
-    </div>
-  </section>
-  
+    </section>
+  </main>
 
-  
+  <!-- ==========================================================================
+       Footer
+       ========================================================================== -->
   <footer>
     <div class="container">
-      <div class="footer-content">
-        <div class="footer-logo">
-          <h2>Alejandro</h2>
-          <p>Fotografía</p>
+      <div class="footer-top">
+        <div class="footer-brand">
+          <h2>Alejandro Fotografía</h2>
+          <p>Preservando momentos únicos con honestidad, calidez y visión artística desde hace más de 12 años en Chile.</p>
         </div>
-        <div class="footer-links">
-          <h4>Links</h4>
-          <ul>
-            <li><a href="#home">Home</a></li>
+
+        <div class="footer-links-col">
+          <h4>Navegación</h4>
+          <ul class="footer-nav-list">
+            <li><a href="#home">Inicio</a></li>
             <li><a href="#about">Sobre mí</a></li>
             <li><a href="#portfolio">Catálogo</a></li>
-            <li><a href="#packages">Tarifario</a></li>
+            <li><a href="#packages">Tarifario 2025</a></li>
+            <li><a href="#testimonials">Testimonios</a></li>
             <li><a href="#contact">Contacto</a></li>
           </ul>
         </div>
-        <div class="footer-newsletter">
-          <div class="contact-info">
-            <h3>Información de Contacto</h3>
-            <p>¿Listo para reservar tu sesión o tienes preguntas? Contáctame directamente.</p>
-            <ul>
-                <li>
-                    <span class="icon">✉️</span>
-                    <span>Alecontes1836@gmail.com</span>
-                </li>
-                <li>
-                    <span class="icon">📱</span>
-                    <span>(+569) 8501-5586</span>
-                </li>
 
-            </ul>
-        </div>
+        <div class="footer-contact-col">
+          <h4>Contacto Rápido</h4>
+          <ul class="footer-contact-list">
+            <li class="footer-contact-item">
+              <svg class="icon-svg" viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+              <a href="mailto:Alecontes1836@gmail.com">Alecontes1836@gmail.com</a>
+            </li>
+            <li class="footer-contact-item">
+              <svg class="icon-svg" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+              <a href="https://wa.me/56985015586" target="_blank" rel="noopener noreferrer">+56 9 8501 5586</a>
+            </li>
+            <li class="footer-contact-item">
+              <svg class="icon-svg" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+              <a href="https://instagram.com/ale.fotografia2012" target="_blank" rel="noopener noreferrer">@ale.fotografia2012</a>
+            </li>
+          </ul>
         </div>
       </div>
+
       <div class="footer-bottom">
-        <p>&copy; 2025 Alejandro fotografía - Desarrollado por <a href="" style="color: aliceblue;"><p>nachodevsc</p></a></p>
+        <p>&copy; 2025 Alejandro Fotografía. Todos los derechos reservados.</p>
+        <p>Desarrollado con dedicación por <a href="https://github.com/nachodevsc" target="_blank" rel="noopener noreferrer">nachodevsc</a></p>
       </div>
     </div>
   </footer>
+
+  <!-- ==========================================================================
+       Portfolio Lightbox Modal
+       ========================================================================== -->
+  <div id="lightbox-modal" class="lightbox-modal" role="dialog" aria-modal="true" aria-label="Visor de fotografía">
+    <span class="lightbox-counter">1 de 8</span>
+    
+    <button class="lightbox-btn lightbox-close" aria-label="Cerrar visor">
+      <svg class="icon-svg" viewBox="0 0 24 24"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+    </button>
+    
+    <button class="lightbox-btn lightbox-prev" aria-label="Fotografía anterior">
+      <svg class="icon-svg" viewBox="0 0 24 24"><polyline points="15 18 9 12 15 6"></polyline></svg>
+    </button>
+    
+    <button class="lightbox-btn lightbox-next" aria-label="Fotografía siguiente">
+      <svg class="icon-svg" viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"></polyline></svg>
+    </button>
+
+    <div class="lightbox-content">
+      <img src="" alt="" class="lightbox-img">
+      <div class="lightbox-caption">
+        <span class="lightbox-category"></span>
+        <h4 class="lightbox-title"></h4>
+      </div>
+    </div>
+  </div>
 
   <script src="/js/index.js"></script>
 </body>
