@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 /* ==========================================================================
-   Header Scroll State & Active Section Tracking
+   Header Scroll State & Active Section Trackingwaaaaaaaa
    ========================================================================== */
 function initHeader() {
   const header = document.getElementById('header');
